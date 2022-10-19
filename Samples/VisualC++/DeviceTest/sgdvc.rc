@@ -1,0 +1,334 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean (Korea) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\sgdvc.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "res\\DRVTEST.ICO"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "Save To File",                ID_MENU_SAVE_RAW
+        MENUITEM "Save To bmp",                 ID_MENU_SAVE_BMP
+        MENUITEM "",                            ID_MENUITEM32777, MENUBARBREAK
+        MENUITEM "Exit",                        ID_MENU_EXIT
+    END
+    POPUP "Help"
+    BEGIN
+        MENUITEM "About",                       ID_MENU_ABOUT
+    END
+END
+
+#endif    // Korean (Korea) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 247, 55
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About SecuGen Device Diagnostic Utility"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    ICON            IDI_ICON1,IDC_STATIC,9,14,21,20,SS_REALSIZEIMAGE
+    LTEXT           "SecuGen USB/SDA Device Diagnostic Utility v1.0",IDC_STATIC,40,10,136,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2016 - 2019, SecuGen Corp.",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,190,7,50,14,WS_GROUP
+END
+
+IDD_SGDVC_DIALOG DIALOGEX 0, 0, 333, 367
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "SecuGen USB/SDA Device Diagnostic Tool"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "",IDC_STATIC_DRAW,139,111,181,171
+    PUSHBUTTON      "Led On/Off",IDC_LEDONOFF,206,81,50,14,WS_DISABLED
+    PUSHBUTTON      "Config...",IDC_CONFIG,261,81,50,14,WS_DISABLED
+    PUSHBUTTON      "Capture",IDC_CAPTURE,15,81,50,14,WS_DISABLED
+    PUSHBUTTON      "LiveCapture",IDC_LIVECAPTURE,70,81,50,14,WS_DISABLED
+    GROUPBOX        "",IDC_STATIC,7,70,317,31
+    LTEXT           "",IDC_STATIC_STATUS,0,342,333,14,SS_SUNKEN
+    GROUPBOX        "Device Info",IDC_STATIC,7,105,119,160
+    LTEXT           "Serial Number",IDC_STATIC,15,132,45,13
+    LTEXT           "Device ID",IDC_STATIC,15,118,33,13
+    EDITTEXT        IDC_EDIT_SN,63,131,56,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_ID,63,115,56,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Image Width",IDC_STATIC,15,148,45,13
+    EDITTEXT        IDC_EDIT_IMG_WIDTH,63,147,56,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "ImageHeight",IDC_STATIC,15,164,45,13
+    EDITTEXT        IDC_EDIT_IMG_HEIGHT,63,163,56,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Image Quality",IDC_STATIC,15,285,44,8
+    EDITTEXT        IDC_EDIT_IMG_QUALITY,63,284,55,12,ES_AUTOHSCROLL
+    LTEXT           "Timeout",IDC_STATIC,15,300,45,8
+    EDITTEXT        IDC_EDIT_TIMEOUT,63,300,55,12,ES_AUTOHSCROLL
+    GROUPBOX        "Live Capture",IDC_STATIC,7,271,119,54
+    LTEXT           "Brightness",IDC_STATIC,15,179,45,13
+    EDITTEXT        IDC_EDIT_BRIGHTNESS,63,179,56,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Contrast",IDC_STATIC,15,196,45,13
+    EDITTEXT        IDC_EDIT_Contrast,63,195,56,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Gain",IDC_STATIC,15,214,45,13
+    EDITTEXT        IDC_EDIT_Gain,63,211,56,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Image DPI",IDC_STATIC,15,247,45,13
+    EDITTEXT        IDC_EDIT_FWVersion,63,228,56,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "FW Version",IDC_STATIC,15,230,45,13
+    EDITTEXT        IDC_EDIT_ImageDPI,63,246,56,12,ES_AUTOHSCROLL | WS_DISABLED
+    PUSHBUTTON      "Continuous Capture",IDC_CONT_CAPTURE,129,81,68,14,WS_DISABLED
+    GROUPBOX        "",IDC_STATIC,136,104,188,182
+    GROUPBOX        "USB",IDC_STATIC,7,4,318,31
+    PUSHBUTTON      "Enumerate",IDC_ENUMBTN,252,16,59,15
+    COMBOBOX        IDC_ENUM_DEVID,19,16,129,62,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Init",IDC_INITBTN,155,16,60,14
+    PUSHBUTTON      "Enable AutoOn Event",IDC_AUTOONBTN,145,302,86,14,WS_DISABLED
+    GROUPBOX        "FDU03/FDU04/UPx/U20/U10/Air/SDA",IDC_STATIC,137,288,185,36
+    CONTROL         "Check finger liveness",IDC_CHECK_FINGER_LIVENESS,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,143,330,96,10
+    GROUPBOX        "SDA-Serial",IDC_STATIC,7,37,318,31
+    COMBOBOX        IDC_COMBO_PORTS,46,48,102,59,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Port",IDC_STATIC,25,50,14,8
+    PUSHBUTTON      "Init",IDC_BUTTON_SDA_INIT,156,47,60,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 240
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_SGDVC_DIALOG, DIALOG
+    BEGIN
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 356
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "FileDescription", "sgdvc MFC Application"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "sgdvc"
+            VALUE "LegalCopyright", "Copyright (C) 2002 - 2017"
+            VALUE "OriginalFilename", "sgdvc.EXE"
+            VALUE "ProductName", "sgdvc Application"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+IDR_VERSION2 VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "secugen"
+            VALUE "FileDescription", "DeviceTest"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "DeviceTest"
+            VALUE "LegalCopyright", "Copyright ¨Ï 2006"
+            VALUE "OriginalFilename", "DeviceTest.exe"
+            VALUE "ProductName", "secugen DeviceTest"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+IDR_VERSION3 VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "secugen"
+            VALUE "FileDescription", "sgfplib"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "sgfplib"
+            VALUE "LegalCopyright", "Copyright ¨Ï 2006"
+            VALUE "OriginalFilename", "sgfplib.dll"
+            VALUE "ProductName", "secugen sgfplib"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About sgdvc..."
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\sgdvc.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

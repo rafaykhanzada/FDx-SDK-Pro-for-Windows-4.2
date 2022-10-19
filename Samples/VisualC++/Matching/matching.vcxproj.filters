@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{12e9c977-0c4b-4527-9aa8-2f9bb5930a75}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{de70e34a-51d3-4f90-b6aa-f692e6a13e71}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{708242b2-e859-4e7f-8995-c4c32210db27}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{2e5ab95f-8c70-4679-a9be-0c69370a46bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\i386">
+      <UniqueIdentifier>{a1795d58-f39e-4b76-a6d9-16d401361f65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\x64">
+      <UniqueIdentifier>{e9ca9b5b-2f3c-4031-abe3-469774acdf5f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DibClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="matching.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="matchingDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="matching.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DibClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="matching.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="matchingDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\matching.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\matching.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\Lib\i386\sgfplib.lib">
+      <Filter>lib\i386</Filter>
+    </Library>
+    <Library Include="..\..\..\Lib\x64\sgfplib.lib">
+      <Filter>lib\x64</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Platforms>x86;x64</Platforms>
+    <AssemblyName>matchingUAIR_cs</AssemblyName>
+    <RootNamespace>sgdm</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="SecuGen.FDxSDKPro.DotNet.Windows">
+      <HintPath>..\..\..\bin\i386\SecuGen.FDxSDKPro.DotNet.Windows.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

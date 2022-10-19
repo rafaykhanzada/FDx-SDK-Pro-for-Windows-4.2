@@ -1,0 +1,226 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\matching.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\matching.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MATCHMIN_DIALOG DIALOGEX 0, 0, 283, 277
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "SecuGen Matching Test Sample"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_REGIMAGE,"Static",SS_BLACKFRAME,13,92,72,82,WS_EX_STATICEDGE
+    CONTROL         "",IDC_MATIMAGE,"Static",SS_BLACKFRAME,191,92,72,82,WS_EX_STATICEDGE
+    PUSHBUTTON      "Register",IDC_REGBUTTON,10,205,68,15,WS_DISABLED
+    PUSHBUTTON      "Verify",IDC_MATBUTTON,101,205,68,15,WS_DISABLED
+    PUSHBUTTON      "Initialize",IDC_INITBUTTON,180,15,41,14
+    PUSHBUTTON      "Config...",IDC_CONFBUTTON,228,15,45,14,WS_DISABLED
+    PUSHBUTTON      "Identify",IDC_IDENTIFY,194,205,68,15,WS_DISABLED
+    EDITTEXT        IDC_EDIT3,0,262,282,14,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY | NOT WS_TABSTOP,WS_EX_CLIENTEDGE
+    LTEXT           "Device Name:",Device,12,17,47,8
+    COMBOBOX        IDC_COMBO_DEVICE,71,15,96,74,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Select Fingerprint Device",IDC_STATIC,0,3,282,32
+    CONTROL         "",IDC_REGIMAGE2,"Static",SS_BLACKFRAME,91,92,72,82,WS_EX_STATICEDGE
+    PUSHBUTTON      "Capture R1",IDC_BTN_CAPTURE_R1,13,178,72,15,WS_DISABLED
+    PUSHBUTTON      "Capture R2",IDC_BTN_CAPTURE_R2,91,178,72,15,WS_DISABLED
+    PUSHBUTTON      "Capture V",IDC_BTN_CAPTURE_V1,191,178,72,15,WS_DISABLED
+    GROUPBOX        "Verification Capture",IDC_STATIC,183,82,88,115
+    GROUPBOX        "Registration Capture",IDC_STATIC,6,82,165,115
+    GROUPBOX        "Matching Test",IDC_STATIC,0,73,282,178
+    LTEXT           "User :",IDC_STATIC,14,235,20,8
+    EDITTEXT        IDC_EDIT_USER,39,233,58,12,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    LTEXT           "Template Format:",IDC_STATIC,10,52,58,13
+    COMBOBOX        IDC_COMBO_FORMAT,71,49,75,117,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Template Format",IDC_STATIC,0,39,282,30
+    COMBOBOX        IDC_COMBO1,169,231,75,117,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Security Level:",IDC_STATIC,117,234,50,8
+    PUSHBUTTON      "Set",IDC_BTN_CHANGE_FORMAT,160,48,53,14,WS_DISABLED
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,1,1,1
+ PRODUCTVERSION 1,3,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "SecuGen Corp"
+            VALUE "FileDescription", "matching MFC Application"
+            VALUE "FileVersion", "1.1.1.1"
+            VALUE "InternalName", "matching"
+            VALUE "LegalCopyright", "Copyright (C) 2003-2018, SecuGen Corp"
+            VALUE "OriginalFilename", "matching.EXE"
+            VALUE "ProductName", "Fdx SDK for Windows"
+            VALUE "ProductVersion", "1, 3, 0, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_MATCHMIN_DIALOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 282
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 274
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_MATCHMIN_DIALOG DLGINIT
+BEGIN
+    IDC_COMBO_FORMAT, 0x403, 6, 0
+0x4753, 0x3034, 0x0030, 
+    IDC_COMBO_FORMAT, 0x403, 8, 0
+0x4e41, 0x4953, 0x3733, 0x0038, 
+    IDC_COMBO_FORMAT, 0x403, 9, 0
+0x5349, 0x314f, 0x3739, 0x3439, "\000" 
+    IDC_COMBO_FORMAT, 0x403, 17, 0
+0x5349, 0x314f, 0x3739, 0x3439, 0x4320, 0x6d6f, 0x6170, 0x7463, "\000" 
+    IDC_COMBO1, 0x403, 11, 0
+0x2031, 0x202d, 0x6f4c, 0x6577, 0x7473, "\000" 
+    IDC_COMBO1, 0x403, 10, 0
+0x2032, 0x202d, 0x6f4c, 0x6577, 0x0072, 
+    IDC_COMBO1, 0x403, 8, 0
+0x2033, 0x202d, 0x6f4c, 0x0077, 
+    IDC_COMBO1, 0x403, 17, 0
+0x2034, 0x202d, 0x6542, 0x6f6c, 0x2077, 0x6f4e, 0x6d72, 0x6c61, "\000" 
+    IDC_COMBO1, 0x403, 11, 0
+0x2035, 0x202d, 0x6f4e, 0x6d72, 0x6c61, "\000" 
+    IDC_COMBO1, 0x403, 17, 0
+0x2036, 0x202d, 0x6241, 0x766f, 0x2065, 0x6f4e, 0x6d72, 0x6c61, "\000" 
+    IDC_COMBO1, 0x403, 9, 0
+0x2037, 0x202d, 0x6948, 0x6867, "\000" 
+    IDC_COMBO1, 0x403, 11, 0
+0x2038, 0x202d, 0x6948, 0x6867, 0x7265, "\000" 
+    IDC_COMBO1, 0x403, 12, 0
+0x2039, 0x202d, 0x6948, 0x6867, 0x7365, 0x0074, 
+    0
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\matching.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

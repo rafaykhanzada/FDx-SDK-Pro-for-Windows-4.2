@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3cf9ae2b-e2b0-4f40-88c8-b32f9635fe0d}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{10d6b504-1185-431a-83f5-d06b8144df05}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{f021e741-c272-4055-bbd3-632936241756}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Lib">
+      <UniqueIdentifier>{76c9aa23-01ea-4f62-b8bf-fca3f5dde522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\x64">
+      <UniqueIdentifier>{40996343-0cf9-47c0-b315-5a2250e38b17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\i386">
+      <UniqueIdentifier>{48c76d34-978a-44de-9bd5-fbeb5973222a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DibClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sgdvc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sgdvcDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="sgdvc.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DibClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sgdvc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sgdvcDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Inc\sgfplib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\DRVTEST.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\sgdvc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\sgdvc.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\Lib\i386\sgfplib.lib">
+      <Filter>Lib\i386</Filter>
+    </Library>
+    <Library Include="..\..\..\Lib\x64\sgfplib.lib">
+      <Filter>Lib\x64</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

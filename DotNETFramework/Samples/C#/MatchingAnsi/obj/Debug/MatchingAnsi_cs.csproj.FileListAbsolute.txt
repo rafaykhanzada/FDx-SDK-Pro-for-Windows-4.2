@@ -1,0 +1,12 @@
+C:\Users\Abdul Rafay\Downloads\FDx SDK Pro for Windows v4.2_J1.12\FDx SDK Pro for Windows v4.2_J1.12\FDx SDK Pro for Windows 4.2\DotNETFramework\Samples\C#\MatchingAnsi\bin\Debug\MatchingAnsi_cs.exe.config
+C:\Users\Abdul Rafay\Downloads\FDx SDK Pro for Windows v4.2_J1.12\FDx SDK Pro for Windows v4.2_J1.12\FDx SDK Pro for Windows 4.2\DotNETFramework\Samples\C#\MatchingAnsi\bin\Debug\MatchingAnsi_cs.exe
+C:\Users\Abdul Rafay\Downloads\FDx SDK Pro for Windows v4.2_J1.12\FDx SDK Pro for Windows v4.2_J1.12\FDx SDK Pro for Windows 4.2\DotNETFramework\Samples\C#\MatchingAnsi\bin\Debug\MatchingAnsi_cs.pdb
+C:\Users\Abdul Rafay\Downloads\FDx SDK Pro for Windows v4.2_J1.12\FDx SDK Pro for Windows v4.2_J1.12\FDx SDK Pro for Windows 4.2\DotNETFramework\Samples\C#\MatchingAnsi\bin\Debug\SecuGen.FDxSDKPro.Windows.dll
+C:\Users\Abdul Rafay\Downloads\FDx SDK Pro for Windows v4.2_J1.12\FDx SDK Pro for Windows v4.2_J1.12\FDx SDK Pro for Windows 4.2\DotNETFramework\Samples\C#\MatchingAnsi\obj\Debug\MatchingAnsi_cs.csproj.AssemblyReference.cache
+C:\Users\Abdul Rafay\Downloads\FDx SDK Pro for Windows v4.2_J1.12\FDx SDK Pro for Windows v4.2_J1.12\FDx SDK Pro for Windows 4.2\DotNETFramework\Samples\C#\MatchingAnsi\obj\Debug\MatchingAnsi_cs.csproj.SuggestedBindingRedirects.cache
+C:\Users\Abdul Rafay\Downloads\FDx SDK Pro for Windows v4.2_J1.12\FDx SDK Pro for Windows v4.2_J1.12\FDx SDK Pro for Windows 4.2\DotNETFramework\Samples\C#\MatchingAnsi\obj\Debug\MatchingAnsi.Form1.resources
+C:\Users\Abdul Rafay\Downloads\FDx SDK Pro for Windows v4.2_J1.12\FDx SDK Pro for Windows v4.2_J1.12\FDx SDK Pro for Windows 4.2\DotNETFramework\Samples\C#\MatchingAnsi\obj\Debug\MatchingAnsi_cs.csproj.GenerateResource.cache
+C:\Users\Abdul Rafay\Downloads\FDx SDK Pro for Windows v4.2_J1.12\FDx SDK Pro for Windows v4.2_J1.12\FDx SDK Pro for Windows 4.2\DotNETFramework\Samples\C#\MatchingAnsi\obj\Debug\MatchingAnsi_cs.csproj.CoreCompileInputs.cache
+C:\Users\Abdul Rafay\Downloads\FDx SDK Pro for Windows v4.2_J1.12\FDx SDK Pro for Windows v4.2_J1.12\FDx SDK Pro for Windows 4.2\DotNETFramework\Samples\C#\MatchingAnsi\obj\Debug\MatchingAnsi_cs.csproj.CopyComplete
+C:\Users\Abdul Rafay\Downloads\FDx SDK Pro for Windows v4.2_J1.12\FDx SDK Pro for Windows v4.2_J1.12\FDx SDK Pro for Windows 4.2\DotNETFramework\Samples\C#\MatchingAnsi\obj\Debug\MatchingAnsi_cs.exe
+C:\Users\Abdul Rafay\Downloads\FDx SDK Pro for Windows v4.2_J1.12\FDx SDK Pro for Windows v4.2_J1.12\FDx SDK Pro for Windows 4.2\DotNETFramework\Samples\C#\MatchingAnsi\obj\Debug\MatchingAnsi_cs.pdb

@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "matchingUAIR_cs/1.0.0": {
+        "dependencies": {
+          "SecuGen.FDxSDKPro.DotNet.Windows": "1.0.0.0"
+        },
+        "runtime": {
+          "matchingUAIR_cs.dll": {}
+        }
+      },
+      "SecuGen.FDxSDKPro.DotNet.Windows/1.0.0.0": {
+        "runtime": {
+          "SecuGen.FDxSDKPro.DotNet.Windows.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "2.5.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "matchingUAIR_cs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SecuGen.FDxSDKPro.DotNet.Windows/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

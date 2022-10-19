@@ -1,0 +1,237 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\matchingAnsi.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\matchingAnsi.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MATCHMIN_DIALOG DIALOGEX 0, 0, 305, 249
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "SecuGen ANSI MINEX Test "
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_REGIMAGE,"Static",SS_WHITERECT,10,101,52,57,WS_EX_STATICEDGE
+    CONTROL         "",IDC_MATIMAGE,"Static",SS_WHITERECT,235,101,52,57,WS_EX_STATICEDGE
+    PUSHBUTTON      "Register",IDC_REGBUTTON,31,187,69,14,WS_DISABLED
+    PUSHBUTTON      "Verify",IDC_MATBUTTON,236,187,53,15,WS_DISABLED
+    PUSHBUTTON      "Init",IDC_INITBUTTON,219,20,67,14
+    EDITTEXT        IDC_EDIT3,0,232,304,14,ES_CENTER | ES_READONLY | NOT WS_TABSTOP,WS_EX_CLIENTEDGE
+    LTEXT           "Device Name:",Device,12,22,47,8
+    COMBOBOX        IDC_COMBO_DEVICE,71,20,117,74,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Fingerprint Module Initialization",IDC_STATIC,3,7,295,35
+    CONTROL         "",IDC_REGIMAGE2,"Static",SS_WHITERECT,69,101,52,57,WS_EX_STATICEDGE
+    PUSHBUTTON      "Capture R1",IDC_BTN_CAPTURE_R1,10,166,52,12,WS_DISABLED
+    PUSHBUTTON      "Capture R2",IDC_BTN_CAPTURE_R2,71,166,48,12,WS_DISABLED
+    PUSHBUTTON      "Capture V",IDC_BTN_CAPTURE_V1,236,165,51,12,WS_DISABLED
+    GROUPBOX        "Verification",IDC_STATIC,223,47,76,164
+    GROUPBOX        "Enrollment",IDC_STATIC,0,47,214,164
+    LTEXT           "Select Finger",IDC_STATIC,8,81,43,8
+    CONTROL         "Unknown ID",IDC_RADIO_FINGERID00,"Button",BS_AUTORADIOBUTTON,140,65,55,10
+    CONTROL         "Right Thumb",IDC_RADIO_FINGERID01,"Button",BS_AUTORADIOBUTTON,140,77,55,10
+    CONTROL         "Right Index",IDC_RADIO_FINGERID02,"Button",BS_AUTORADIOBUTTON,140,90,55,10
+    CONTROL         "Right Middle",IDC_RADIO_FINGERID03,"Button",BS_AUTORADIOBUTTON,140,103,55,10
+    CONTROL         "Right Ring",IDC_RADIO_FINGERID04,"Button",BS_AUTORADIOBUTTON,140,116,55,10
+    CONTROL         "Right Little",IDC_RADIO_FINGERID05,"Button",BS_AUTORADIOBUTTON,140,129,55,10
+    CONTROL         "Left Thumb",IDC_RADIO_FINGERID06,"Button",BS_AUTORADIOBUTTON,140,143,55,10
+    CONTROL         "Left Index",IDC_RADIO_FINGERID07,"Button",BS_AUTORADIOBUTTON,140,156,55,10
+    CONTROL         "Left Middle",IDC_RADIO_FINGERID08,"Button",BS_AUTORADIOBUTTON,140,168,55,10
+    CONTROL         "Left Ring",IDC_RADIO_FINGERID09,"Button",BS_AUTORADIOBUTTON,140,181,55,10
+    CONTROL         "Left Little",IDC_RADIO_FINGERID10,"Button",BS_AUTORADIOBUTTON,140,194,55,10
+    GROUPBOX        "Template Info",IDC_STATIC,132,55,77,152
+    COMBOBOX        IDC_COMBO1,52,78,65,117,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "User ",IDC_STATIC,9,62,39,8
+    EDITTEXT        IDC_EDIT_USER,52,60,66,12,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    LTEXT           "Capture Finger to Verify",IDC_STATIC,235,79,46,18
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,1,0,1
+ PRODUCTVERSION 1,3,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "SecuGen Corp"
+            VALUE "FileDescription", "matching MFC Application"
+            VALUE "FileVersion", "1, 1, 0, 1"
+            VALUE "InternalName", "matching"
+            VALUE "LegalCopyright", "Copyright (C) 2003-2014, SecuGen Corp"
+            VALUE "OriginalFilename", "matching.EXE"
+            VALUE "ProductName", "Fdx SDK for Windows"
+            VALUE "ProductVersion", "1, 3, 0, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_MATCHMIN_DIALOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 304
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 246
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_MATCHMIN_DIALOG DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 15, 0
+0x6e55, 0x6e6b, 0x776f, 0x206e, 0x6966, 0x676e, 0x7265, "\000" 
+    IDC_COMBO1, 0x403, 12, 0
+0x6952, 0x6867, 0x2074, 0x6874, 0x6d75, 0x0062, 
+    IDC_COMBO1, 0x403, 19, 0
+0x6952, 0x6867, 0x2074, 0x6e69, 0x6564, 0x2078, 0x6966, 0x676e, 0x7265, 
+"\000" 
+    IDC_COMBO1, 0x403, 20, 0
+0x6952, 0x6867, 0x2074, 0x696d, 0x6464, 0x656c, 0x6620, 0x6e69, 0x6567, 
+0x0072, 
+    IDC_COMBO1, 0x403, 18, 0
+0x6952, 0x6867, 0x2074, 0x6972, 0x676e, 0x6620, 0x6e69, 0x6567, 0x0072, 
+
+    IDC_COMBO1, 0x403, 20, 0
+0x6952, 0x6867, 0x2074, 0x696c, 0x7474, 0x656c, 0x6620, 0x6e69, 0x6567, 
+0x0072, 
+    IDC_COMBO1, 0x403, 11, 0
+0x654c, 0x7466, 0x7420, 0x7568, 0x626d, "\000" 
+    IDC_COMBO1, 0x403, 18, 0
+0x654c, 0x7466, 0x6920, 0x646e, 0x7865, 0x6620, 0x6e69, 0x6567, 0x0072, 
+
+    IDC_COMBO1, 0x403, 19, 0
+0x654c, 0x7466, 0x6d20, 0x6469, 0x6c64, 0x2065, 0x6966, 0x676e, 0x7265, 
+"\000" 
+    IDC_COMBO1, 0x403, 17, 0
+0x654c, 0x7466, 0x7220, 0x6e69, 0x2067, 0x6966, 0x676e, 0x7265, "\000" 
+    IDC_COMBO1, 0x403, 19, 0
+0x654c, 0x7466, 0x6c20, 0x7469, 0x6c74, 0x2065, 0x6966, 0x676e, 0x7265, 
+"\000" 
+    0
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\matchingAnsi.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
